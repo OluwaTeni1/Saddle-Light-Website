@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  body {
+    background-color: #fff;
+    background-size: cover;
+    height: 100vh;
+   
+    
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  h1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    padding:2rem 0rem;
+    height: 14vh;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .logo {
+    margin: 0rem 1.5rem;
+  }
+  
+  ul li {
+    margin-right: 1rem;
+  }
+  
+  ul li a {
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 1.5px;
+  }
+  
+  ul li a.active,
+  ul li a:hover {
+    background-color: grey;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  
+  .hamburger {
+    position: absolute;
+    right: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+  }
+  
+  .hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.3s all;
+  }
+  .menu {
+    position: absolute;
+  }
+  @media (max-width: 750px) {
+    body {
+      overflow-x: hidden;
+      background-position: cover;
+    }
+    .hamburger {
+      display: flex;
+      cursor: pointer;
+    }
+    ul {
+      flex-direction: column;
+      position: absolute;
+      top: 14vh;
+      right: -100%;
+      background-color: rgba(0,0,0,.5);
+      height: 86vh;
+      width: 100%;
+      align-items: center;
+      transition: right 0.3s ease-in;
+    }
+  
+    ul li {
+      margin-right: 0px;
+    }
+  
+    .menu-slide {
+      right:0;
+      transition: right 0.3s ease-in;
+    }
+    .cross .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .cross .bar:first-child {
+      transform: rotate(-45deg) translate(-5px, 7px);
+    }
+    .cross .bar:last-child {
+      transform: rotate(45deg) translate(-5px, -7px);
+    }
+  }
+
+.float-container {
+  padding-top: 50px;
+  margin: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  background-color: rgb(255, 253, 163, 0.1);
+  border-radius: 10px;
+}
+.float-container2 {
+  padding-top: 50px;
+  margin: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.float-child1 {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  margin-right: 50px;
+
+  border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    
+    padding: 5px 20px;
+    color: darkblue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000px;
+    text-align: center;
+    flex: 1;
+  }
+  .float-child3 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    margin-right: 50px;
+  
+    border-radius: 10px;
+      background-color: rgb(102, 102, 102);
+      
+      padding: 5px 20px;
+      color: darkblue;
+      font-size: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 1000px;
+      text-align: center;
+      flex: 1;
+    }
+  
+.float-child2 {
+  border: 1;
+  background-color: rgb(255, 253, 163, 0.5);
+  border-radius: 50px;
+  padding: 20px;
+   margin-left: 50px;
+  color: darkblue;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 1000px;
+  text-align: center;
+  margin-right: 20px;
+
+}
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+ol {
+  list-style: none;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-left: 50px;
+  font-family: 'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+  text-align: left;
+}
+div span {
+  display: inline-block;
+}
+.new {
+  text-align: left;
+}
+ul .new {
+  text-align: left;
+}
+.brief{
+  margin-left: 30px;
+}
+h5.history {
+  padding: 20px;
+  margin-left: 30px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+p.lines {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 50px;
+  font-family: Georgia;
+
+}
+
